@@ -1,0 +1,2 @@
+class SourdoughsController < ApplicationController
+end

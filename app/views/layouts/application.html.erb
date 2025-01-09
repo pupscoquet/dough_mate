@@ -21,12 +21,12 @@
     <link href="https://api.fontshare.com/v2/css?f[]=switzer@300,301,400,401&f[]=gambarino@400&display=swap" rel="stylesheet">
 
     <%# Includes all stylesheet files in app/assets/stylesheets %>
-    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
 
-  <body><%= render "shared/navbar" %>
-<%= render "shared/flashes" %>
-
+  <body>
+    <%= render "shared/navbar" %>
+    <%= render "shared/flashes" %>
     <%= yield %>
   </body>
 </html>

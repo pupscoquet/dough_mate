@@ -10,3 +10,29 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// App-wide rules
+body {
+  background-color: $cream;
+}
+
+.main-container {
+  margin: 80px auto 0 auto;
+  width: 84vw;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-rust {
+  background-color: $rust;
+}
+
+.bg-blue {
+  background-color: $blue;
+}

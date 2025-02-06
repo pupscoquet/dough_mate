@@ -3,10 +3,16 @@
   justify-content: space-between;
   padding: 20px;
   text-decoration: none;
+
+  a {
+      text-decoration: none;
+  }
 }
 
 .navbar-links {
   color: $blue;
+  font-family: $headers-font;
+  font-size: 24px;
 
   &:hover {
     font-style: italic;
@@ -15,8 +21,8 @@
 
 #navbar-underline {
   height: 4px;
-  top: 48px;
-  width: calc(3.6rem + 1.8vw);
+  top: 52px;
+  width: 62px;
 }
 
 .navbar-left {

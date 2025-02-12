@@ -10,6 +10,7 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "pages/about";
 
 // App-wide rules
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .main-container {
-  margin: 80px auto 0 auto;
+  margin: 0 auto;
   width: 84vw;
 }
 
@@ -35,4 +36,17 @@ body {
 
 .bg-blue {
   background-color: $blue;
+}
+
+.elliptical {
+  border: 2px solid $rust;
+  border-radius: 50%;
+  width: 132px;
+  height: 60px;
+  transform: rotate(-12deg);
+}
+
+a {
+  text-decoration: none;
+  color: $black;
 }

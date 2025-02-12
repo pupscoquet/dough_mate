@@ -1,0 +1,38 @@
+#about-title {
+  font-family: $headers-font;
+  font-size: 68px;
+  color: $blue;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.about-p {
+  width: 80vw;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  font-family: $body-font;
+  font-weight: 300;
+  font-size: 16px;
+  color: $black;
+
+  span {
+    font-family: $headers-font;
+  }
+}
+
+#eliptic-about {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+}
+
+.link-p {
+  position: absolute;
+  margin: -4px auto 0 auto;
+  z-index: 2;
+  font-weight: 300;
+  width: 85%;
+  text-align: center;
+}

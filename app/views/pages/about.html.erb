@@ -1,5 +1,5 @@
 <div class="main-container">
-  <h1 id="about-title">About us</h1>
+  <h1 class="h1-titles">About us</h1>
   <p class="about-p">Welcome to <span>Dough mate</span>—your personal guide to
   mastering the art of sourdough, one step at a time.</p>
   <p class="about-p">We know that making sourdough can feel like a complex and intimidating
@@ -11,8 +11,11 @@
   Dough mate  provides step-by-step guidance to help you create a healthy
   starter and bake delicious sourdough bread.</p>
 
-  <div class="elliptical" id="eliptic-about"></div>
-  <%= link_to home_path, class: "link-p" do %>
-    <p>get started</p>
-  <% end %>
+
+  <div class="elliptical" id="eliptic-about">
+    <%= link_to home_path do %>
+      <p class="link-p">get started</p>
+    <% end %>
+  </div>
+
 </div>

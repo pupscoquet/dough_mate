@@ -1,0 +1,13 @@
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+#home-intro {
+  font-family: $body-font;
+  text-align: center;
+
+}

@@ -1,4 +1,4 @@
-#about-title {
+.h1-titles {
   font-family: $headers-font;
   font-size: 68px;
   color: $blue;
@@ -26,13 +26,16 @@
   position: relative;
   top: 40px;
   z-index: 1;
+  background-color: $rust;
 }
 
 .link-p {
   position: absolute;
-  margin: -4px auto 0 auto;
+  margin: 14px auto 0 14px;
   z-index: 2;
-  font-weight: 300;
+  font-weight: 500;
   width: 85%;
   text-align: center;
+  color: #fff;
+  transform: rotate(12deg);
 }

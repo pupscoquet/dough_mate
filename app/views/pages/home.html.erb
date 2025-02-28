@@ -1,14 +1,22 @@
 <div class="main-container">
-  <h1 class="h1-titles">Dough</h1>
+  <h1 class="h1-home">Dough</h1>
   <div class="flex-row-container">
-    <div class="elliptical"></div>
-    <h1 class="h1-titles">mate</h1>
+    <div class="elliptical" id="oval-home"></div>
+    <h1 class="h1-home" id="h1-home">mate</h1>
   </div>
 
-  <p id="home-intro">Step-by-step guidance for<br>perfect sourdough</p>
+  <p class="home-p" id="home-intro">Step-by-step guidance for<br>perfect sourdough</p>
+  <p class="home-p" id="home-q">Choose your journey!</p>
 
-  <%= link_to "Sourdough", "#" %>
-  <%= link_to "Starter", "#" %>
+  <div class="home-links">
+    <%= link_to "#", class: "home-btn" do %>
+      <i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i>
+      <p id="starter-p">STARTER</p>
+    <% end %>
+    <%= link_to "#", class: "home-btn" do %>
+      <p id="sourdough-p">SOURDOUGH</p>
+      <i class="fa fa-long-arrow-right arrow2" aria-hidden="true"></i>
+    <% end %>
+  </div>
 
 </div>
-22880

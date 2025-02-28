@@ -20,6 +20,7 @@ body {
 .main-container {
   margin: 0 auto;
   width: 84vw;
+  height: 100%;
 }
 
 .absolute {
@@ -39,7 +40,7 @@ body {
 }
 
 .elliptical {
-  border: 2px solid $rust;
+  border: 2.6px solid $rust;
   border-radius: 50%;
   width: 140px;
   height: 60px;
